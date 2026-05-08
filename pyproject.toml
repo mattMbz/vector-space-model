@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vsm"
+version = "0.1.0"
+description = "Vector Space Model Information Retrieval Engine"
+authors = ["Matias Barboza"]
+packages = [{ include = "vsm" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "1.8.0"
+rank-bm25 = "0.2.2"
+nltk = "^3.9.2"
+spacy = "^3.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "9.0.3"
+pytest-cov = "7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
