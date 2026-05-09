@@ -4,6 +4,8 @@
 # Directories and files
 .vscode/
 agents/
+diagrams/
+documents/
 agents/CONTEXT.md
 main.py
 
