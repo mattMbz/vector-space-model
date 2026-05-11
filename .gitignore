@@ -3,6 +3,7 @@
 
 # Directories and files
 .vscode/
+.codex/
 agents/
 diagrams/
 documents/
